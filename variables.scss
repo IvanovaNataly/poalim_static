@@ -1,0 +1,17 @@
+//colors
+$font-color: #000000;
+$light-color: #ffffff;
+$contrast-color: #af2d24;
+$bg-grey: #f2f2f3;
+$border-color: #d9dadc;
+
+//common
+$font-size: 7px;
+
+//mixins
+@mixin table($columns) {
+    width: 100%;
+    th, td {
+        width: 100% / $columns;
+    }
+}
